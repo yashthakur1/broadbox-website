@@ -771,6 +771,7 @@ a {
 }
 
 .nav-link {
+  overflow: visible;
   margin-right: 15px;
   margin-bottom: 20px;
   margin-left: 15px;
@@ -947,7 +948,7 @@ a {
 
 .feature-wrap.reverse {
   overflow: visible;
-  width: 90vw;
+  width: 70vw;
   padding-right: 0vw;
   padding-left: 0vw;
   -webkit-box-orient: horizontal;
