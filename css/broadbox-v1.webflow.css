@@ -1392,6 +1392,15 @@ a {
   width: 100%;
 }
 
+.link-3 {
+  color: #ff5d30;
+}
+
+.text-span {
+  color: #6b6b6b;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -1699,8 +1708,7 @@ a {
   }
 
   .section.center {
-    padding-top: 5vh;
-    padding-bottom: 0vh;
+    padding: 5vh 0px 0vh;
     background-size: auto;
   }
 
@@ -1842,6 +1850,25 @@ a {
 
   .paragraph-9 {
     padding: 20px;
+  }
+
+  .body-2 {
+    background-color: #010b14;
+  }
+
+  .heading-10 {
+    overflow: auto;
+  }
+
+  .paragraph-12 {
+    position: static;
+    overflow: visible;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
+  .paragraph-13 {
+    overflow: auto;
   }
 }
 
